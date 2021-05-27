@@ -1,68 +1,77 @@
-*{
-    margin: 0;
-    padding: 0;
-    
-}
-html{
-    background: url(./images/imghh.png) no-repeat center center fixed;
-    
-}
-.contact-box{
-    width: 500px;
-    background-color: rgb(201, 195, 195);
-    box-shadow: 0 0 20px 0 #999;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
-}
-form{
-    margin: 35px;
-}
-.input-field{
-    width: 400px;
-    height: 40px;
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 1px solid #777;
-    border-radius: 14px;
-    outline: none;
-}
-.textarea-field{
-    height: 150px;
-    padding-top: 10px;
-}
-.btn{
-    border-radius: 20px;
-    color: #fff;
-    margin-top: 18px;
-    padding: 10px;
-    background-color: #47c35a;
-    font-size: 12px;
-    border: none;
-    cursor: pointer;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        html {
+            background: url(./images/imghh.png) no-repeat center center fixed;
+        }
+        
+        .contact-box {
+            width: 500px;
+            background-color: rgb(201, 195, 195);
+            box-shadow: 0 0 20px 0 #999;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
+        
+        form {
+            margin: 35px;
+        }
+        
+        .input-field {
+            width: 400px;
+            height: 40px;
+            margin-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 1px solid #777;
+            border-radius: 14px;
+            outline: none;
+        }
+        
+        .textarea-field {
+            height: 150px;
+            padding-top: 10px;
+        }
+        
+        .btn {
+            border-radius: 20px;
+            color: #fff;
+            margin-top: 18px;
+            padding: 10px;
+            background-color: #47c35a;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .nav-box li a {
+            padding: 14px 105px;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(255, 255, 255);
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: rgb(82, 40, 40);
+        }

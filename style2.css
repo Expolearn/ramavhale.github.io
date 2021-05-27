@@ -1,15 +1,16 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Quicksand' , sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
+
 body {
     width: 100%;
-    height:100vh;
-
+    height: 100vh;
 }
-.container{
+
+.container {
     position: relative;
     display: flex;
     justify-content: center;
@@ -18,41 +19,47 @@ body {
     height: 100%;
     padding: 20px 100px;
 }
-.container:after{
+
+.container:after {
     content: '';
-    position: absolute ;
+    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background:url(./images/imghh.png) no-repeat center ;
+    background: url(./images/imghh.png) no-repeat center;
     background-size: cover;
     z-index: -1;
     filter: blur(50px);
 }
-.contact-box{
+
+.contact-box {
     max-width: 850px;
     display: grid;
-    grid-template-columns: repeat(2 ,1 fr);
+    grid-template-columns: repeat(2, 1 fr);
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: #fff;
 }
-.right{
+
+.right {
     height: 100%;
     background: url(./images/imghh.png)no-repeat center;
     background-size: cover;
 }
-.left{
+
+.left {
     padding: 25px 40px;
 }
-h2{
+
+h2 {
     position: relative;
     padding-bottom: absolute;
     margin-bottom: 10px;
 }
-h2:after{
+
+h2:after {
     content: '';
     position: absolute;
     left: 04%;
@@ -63,46 +70,55 @@ h2:after{
     border-radius: 2px;
     background-color: #2ecc71;
 }
-.field{
+
+.field {
     width: 50%;
     padding: 0.5rem 1rem;
     outline: none;
     border: 2px solid rgba(0, 0, 0, 0);
-    background-color: rgba(230, 230,230, 230);
+    background-color: rgba(230, 230, 230, 230);
     font-size: 1.1rem;
     margin-bottom: 22px;
     transition: 0.3s;
 }
-.field:hover{
+
+.field:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
-.field:focus{
+
+.field:focus {
     background-color: #fff;
     border: 2px solid rgba(30, 85, 250, 0.47);
 }
-.area{
+
+.area {
     min-height: 150px;
 }
+
+.nav-box li a {
+    padding: 14px 105px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
+    background-color: rgb(255, 255, 255);
+}
+
+li {
     float: left;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
+}
+
+li a:hover {
+    background-color: rgb(82, 40, 40);
+}
